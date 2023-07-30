@@ -1,1 +1,16 @@
+intruction on 343-346 pages
 
+sudo apt-get install gpsd
+sudo apt-get install gpsd-clients
+
+sudo nano etc/default/gpsd
+
+START_DAEMON="true"
+USBAUTO="false"
+DEVICES="/dev/ttyS0"   !I AM NOT SURE IS THAT 0 OR o (zero or O letter)!
+GPSD_OPTIONS="-n"
+GPSD_SOCKET="/var/run/gpsd.sock"
+
+sudo gpsd /dev/tty50
+
+cgps -s
