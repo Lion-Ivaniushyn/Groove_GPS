@@ -14,3 +14,6 @@ GPSD_SOCKET="/var/run/gpsd.sock"
 sudo gpsd /dev/tty50
 
 cgps -s
+
+
+!!!https://learn.adafruit.com/adafruit-ultimate-gps-on-the-raspberry-pi/using-uart-instead-of-usb!!!
