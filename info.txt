@@ -17,3 +17,4 @@ cgps -s
 
 
 !!!https://learn.adafruit.com/adafruit-ultimate-gps-on-the-raspberry-pi/using-uart-instead-of-usb!!!
+!!!https://www.instructables.com/Interfacing-GPS-Module-With-Raspberry-Pi/!!!
